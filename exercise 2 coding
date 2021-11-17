@@ -1,0 +1,45 @@
+
+package exercise;
+import java.util.Scanner;
+public class exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Enter first subject : ");
+		String subject = sc.next();
+		
+		System.out.println("Enter your mark : ");
+		int firstMark = sc.nextInt();
+		
+		System.out.println("Enter second subject : ");
+		String Subject = sc.next();
+		
+		System.out.println("Enter your mark : ");
+		int secondMark = sc.nextInt();
+		
+		if ((firstMark > 50) && (secondMark > 50)) {
+			System.out.println(" Result: Pass");
+		}
+		else {
+			System.out.println("Result: Fail");
+		}
+		
+		
+		if (firstMark > secondMark) {
+			System.out.println("first subject have higher mark than second subject");
+		}
+		else {
+			System.out.println(" first subject have lower mark than second subject");
+		}
+			
+		
+		
+		
+	}	
+		
+	}
+
+
